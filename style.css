@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --verde: #C8A2C8;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -59,15 +59,15 @@ body {
 .botoes {
     display: block;
 }
-.botao.ativo {
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
-.aba-texto{
-background-color: var(--texto-fundo);
-padding: 40px;
-border-radius: 0 0 40px 40px;
+.aba-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
 
 .aba-conteudo.ativo{
@@ -89,18 +89,16 @@ border-radius: 0 0 40px 40px;
 }
 
 @media screen and (min-width: 768px) {
-   
-    .botoes{
+
+    .botoes {
         display: flex;
     }
-    }
-
+    
     .botao:first-child {
         border-radius: 40px 0 0 0;
-
     }
 
     .botao:last-child {
-        border-radius:  0 40px 0 0;
-
+        border-radius: 0 40px 0 0;
     }
+}
